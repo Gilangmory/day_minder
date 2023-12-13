@@ -1,0 +1,28 @@
+name: day_minder
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.2.1 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  flutter_local_notifications: ^16.2.0
+  font_awesome_flutter: ^10.6.0
+  workmanager: ^0.5.2
+  android_alarm_manager_plus: ^3.0.4
+  intl: ^0.17.0
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: 3.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
